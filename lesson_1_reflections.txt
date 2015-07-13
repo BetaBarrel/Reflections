@@ -1,0 +1,29 @@
+LESSON 1 REFLECTIONS
+
+Why is viewing a DIFF between 2 versions helpful in spotting bugs?
+- narrows down material to review to what has changed and nothing else
+- Makes errors easier to spot
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- Will allow you to easily revert to a functioning version if a feature that you've added is no longer required
+- Will allow you to pick up an old version and take a projectin a different direction from there
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like in Google Docs?
+PROS
+- Means that versions are aved at logical points, e.g. after a change is completed, or when a functional unit of code is complete
+- More likely to be able to understand why it was saved at that point when opening again
+CONS
+- You must remember to save
+- Changes could be lost in the event of a computer/application crash
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit while others, like Google Docs, treat each file separately?
+- Sometimes the files which are saved as versions are dependent on other files to function properly. To ensure that one file is able to rely on the "hooks" it works with in its companion file it is worth saving both at the same time
+
+How can you use the commands git log and git diff to view the history of files.
+- Git log will display the commit ID, author, timestamp, and change comment
+- Git diff can be used with the commit ID can be used to compare the actual changes made between those commits
+
+
+How might using version control make you more confident to make changes that could break something?
+-You can always revert to an earlier verion that is functional
+- Using the diffs you can find what changes were made and isolate the erroneous entry from that.

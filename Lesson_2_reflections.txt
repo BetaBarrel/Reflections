@@ -1,0 +1,5 @@
+Lesson 2 Reflections:
+
+What happens when you initialize a repository? Why do you need to do it?
+- a hidden folder called ".git" is created which contains the files that track the changes in the repository
+- note that the files in that folder are not added automatically, you must make an inital commit
