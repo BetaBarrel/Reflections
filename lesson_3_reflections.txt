@@ -1,0 +1,4 @@
+When wouls you want to use a remote repository rather than keeping all you work local?
+- When collaborating with others
+- When travelling
+- When needing access from more than one computer / device
